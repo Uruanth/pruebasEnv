@@ -70,7 +70,7 @@ public class Validaciones {
     public Mono<Usuario> verificarExistenciaUsuarioMongoYFirebaseParaIniciarSesion(String uid) {
         try {
             Firebase.inicializarFirebase(getCredentials());
-            log.info("inicio");
+
         } catch (IOException e) {
             log.warning(e.getMessage());
         }

@@ -30,7 +30,7 @@ public class Firebase {
                 .build();
 
         conn = FirebaseApp.initializeApp(options);
-
+        log.info("conecto");
     }
 
     public static void finalizarFirebase() {
