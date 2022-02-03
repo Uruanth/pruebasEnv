@@ -16,7 +16,7 @@ public class Firebase {
     //TODO: Poner la ruta del archivo de firebase del proyecto a despliegue
     public static void inicializarFirebase() throws IOException {
         FileInputStream serviceAccount =
-                new FileInputStream("service-account.json");
+                new FileInputStream(${{ secrets.PROBANDO }});
 
         FirebaseOptions options = new FirebaseOptions.Builder()
                 .setCredentials(GoogleCredentials.fromStream(serviceAccount))
