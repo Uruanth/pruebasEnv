@@ -13,8 +13,6 @@ target/
 .springBeans
 .sts4-cache
 
-
-
 ### IntelliJ IDEA ###
 .idea
 *.iws
@@ -33,7 +31,3 @@ build/
 
 ### VS Code ###
 .vscode/
-
-
-service-account.json
-src/main/java/co/com/sofka/parches/personal
