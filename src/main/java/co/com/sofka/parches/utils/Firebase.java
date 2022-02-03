@@ -25,9 +25,7 @@ public class Firebase {
 
     //TODO: Poner la ruta del archivo de firebase del proyecto a despliegue
     public static void inicializarFirebase(FirebaseCredentials crendenciales) throws IOException {
-        log.info(crendenciales.getAuth_uri());
         FirebaseOptions options = new FirebaseOptions.Builder()
-            //    .setCredentials(GoogleCredentials.fromStream(crendenciales))
                  .setCredentials(GoogleCredentials.fromStream(getCredentials(crendenciales)))
                 .build();
 
