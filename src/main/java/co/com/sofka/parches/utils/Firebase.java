@@ -69,7 +69,7 @@ public class Firebase {
         ObjectMapper mapper = new ObjectMapper();
         String jsonString = null;
         try {
-            jsonString = mapper.writeValueAsString(crendenciales);
+            jsonString = mapper.writeValueAsString(crendenciales2);
         } catch (IOException e) {
             log.warn(e.getMessage());
         }
